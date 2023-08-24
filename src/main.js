@@ -30,7 +30,7 @@ const camera = new PerspectiveCamera(fov, aspect, near, far);
 camera.position.set(0, 0, 10);
 
 // create a geometry
-const geometry = new BoxGeometry(5, 5, 5);
+const geometry = new BoxGeometry(2, 2, 2);
 
 // create a default (white) Basic material
 const material = new MeshBasicMaterial();
